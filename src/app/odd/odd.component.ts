@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./odd.component.css']
 })
 export class OddComponent implements OnInit {
-  @Input() number: number;
+  @Input() number?: number;
   constructor() { }
 
   ngOnInit(): void {
